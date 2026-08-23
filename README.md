@@ -1,5 +1,10 @@
 # 🏠 Istanbul Housing Market Analysis & Price Prediction
 
+<p align="center">
+  <img src="docs/assets/istanbul_banner.jpg" width="900" alt="Istanbul skyline">
+</p>
+
+
 A full data science pipeline on a real Istanbul apartment listings dataset (24,767 listings, 38 districts) — from raw data cleaning through exploratory analysis to a tuned, evaluated regression model.
 
 ## Project Highlights
@@ -63,3 +68,10 @@ jupyter notebook notebooks/01_data_cleaning.ipynb
 
 Run the notebooks in order (01 → 05); each one reads the previous notebook's output from `data/processed/`.
 
+## Author
+
+Built by Abdelhafidh — freelance Data & Software Engineer.
+
+## License
+
+MIT
