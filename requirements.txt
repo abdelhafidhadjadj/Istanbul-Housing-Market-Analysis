@@ -1,0 +1,8 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.4
+matplotlib>=3.7
+seaborn>=0.13
+bokeh>=3.0
+jupyter>=1.0
+ipywidgets>=8.0
