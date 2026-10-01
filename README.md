@@ -14,6 +14,9 @@ A full data science pipeline on a real Istanbul apartment listings dataset (24,7
 - **A caught-and-fixed data leak in the cleaning logic itself**: residual analysis on the trained model (Notebook 04) surfaced 16 listings with implausibly low prices that had slipped past the original error flag — fixed by looping back to Notebook 01.
 - **Final model**: Random Forest + target encoding, MedAE ≈ 1.1M TRY (~16% of median price) on log-transformed price, selected after confirming that raw R²/RMSE on price is unstable due to a handful of ultra-luxury outliers.
 
+## Data Source
+This project uses the ["Istanbul Apartment Prices 2026"](https://www.kaggle.com/datasets/brahimenesulusoy/istanbul-apartment-prices-2026) dataset, published on Kaggle.
+
 ## Repository Structure
 
 ```
